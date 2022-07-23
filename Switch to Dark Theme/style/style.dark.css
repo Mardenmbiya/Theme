@@ -1,0 +1,50 @@
+body
+{
+    position: absolute;
+    transition: ease-in-out;
+}
+.workspace
+{
+    background: #303030;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+/* ... */
+.header
+{
+    display: flex;
+    flex-direction: row-reverse;
+    background: #33184e;
+    height: 10vh;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.modeChanger
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 15%;
+}
+.toggleButton
+{
+    background: #663399;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.switcher
+{
+    background: #000000b7;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
